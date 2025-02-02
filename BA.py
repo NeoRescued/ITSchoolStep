@@ -71,7 +71,6 @@ class PremiumAccount(BankAccount):
         total_amount = amount + fee
         super().transfer(total_amount, account, comment)
 
-# Пример использования:
 def main():
     accounts = {}
     while True:
